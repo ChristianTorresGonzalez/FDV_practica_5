@@ -10,8 +10,6 @@ Para la realizacion de esta quinta práctica, partire de la escena desarrollada 
 
 Como consideración, hay que tener en cuenta, que la idea de esta practica es trabajar con los delegados y los eventos. Para ponernos un poco en contexto, debemos recordar que los delegados son aquellos controladores de escena, que comunicaran algún cambio en la escena, a todas aquellas funciones, que este controlando dicho delegado. Hasta ahora sabemos lo que es un delegado, pero no sabemos como comunica a los objetos, algún cambio en la escena esto lo hará mediante los eventos. Los eventos, son esos tipos de delegados, que cuando se activan, lanzan la ejecución de todas las funciones que tienen suscritas a ellos mismo. Una vez explicado esto, entrado mas en contexto, pasemos a explicar la realización de la practica.
 
-![Alt text](/img/escena.png)
-
 Tal y como se aprecia en la imagen, lo primero que hago es definir mi delegado en la línea 7, de tal forma que si en otro script quiere trabajar con alguno de los eventos implementados, solo tengo que crear un objeto de dicha clase.
  
 
@@ -25,4 +23,14 @@ Para esta segunda tarea lo que he hecho ha sido situar en la escena una serie de
 
 Como bien comente al principio, para poder lograr cumplir alguno de los objetivos de la practica, tendría que trabajar con delegados. Es aquí donde entran en juego, para ello, en primer lugar lo que haré será crear un delegado donde definiremos los diferentes eventos a desarrollar. Una vez definido el delegado, solo nos queda definir el evento al que se suscribirán las diferentes funciones que queremos que puedan lanzar alguno de los eventos definidos.
 
-  ![Alt text](/img/escena.png)
+  ![Alt text](/img/delegado.png)
+  
+Desarrollada la clase encargada de gestionar e implementar los delegados, ya solo nos quedaría definir la llamada al evento del delegado. Para ello lo que hago es definir un script, en el cual compruebo que tipo de llave se ha recolectado para en función de eso eliminar una puerta u otra, para pasar el tipo de llave a la ejecución de llamada del evento del delegado.
+
+![Alt text](/img/llave.png)
+
+Una vez definido el script para recoger la llave, para finalizar con esta tarea, solo quedaría la implementación de la función que se tiene que ejecutar cuando el evento es lanzado. Es por eso que he creado un nuevo script, el cual se encargara de eliminar la puerta, una vez se lanza el evento. En dicho script, lo primero que hago es comprobar que tipo de llave se ha recogido, para así saber si tengo que eliminar una única puerta, o por el contrario eliminar todas las puertas.
+- En caso de tener que eliminar todas las puertas, lo que hago es buscar en la escena todos los objetos con la etiqueta **"Puerta"** para eliminarlos. Además de esto, también hago una segunda búsqueda de todas las llaves que hay en la escena, ya que si recogemos la llave global, el resto de llaves sobrarían, por lo que son eliminadas.
+- En caso contrario, es decir, en caso de que se haya recogido una llave concreta, lo que hago es definir una nueva función, que mediante una expresión regular se encarga de determinar a que puerta esta asociada la llave que ha sido recolectada. Una vez se que puerta tiene asociada dicha llave, solo queda eliminar la puerta y la llave
+
+![Alt text](/img/puerta.png)
