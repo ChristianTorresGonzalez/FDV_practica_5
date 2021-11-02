@@ -63,3 +63,5 @@ En este punto voy a comentar las dos ultimas tareas que se piden para la practic
 Para ello lo que hago es crear un script que colocare a ambos objetos encargados de perseguir a los jugadores, donde lo que hago es ir enfocando el objeto al jugador, y lo voy moviendo una velocidad determinada en cada instante mientras este alejado una distancia por encima de un umbral.
 
 ![Alt text](/img/perseguir.png)
+
+![Alt text](/img/perseguir.gif)
