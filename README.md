@@ -49,3 +49,10 @@ Tal y como se aprecia en la imagen, lo que hago es que en el momento en que algo
 En caso de que vaya de la zona dos a la zona uno, seria exactamente lo mismo lo que cambiando el punto de spawn y la nueva posición de la cámara.
 
 ![Alt text](/img/teletransporte.gif)
+
+## Controlar jugador
+Para este punto se pide que mediante las teclas "WASD" podamos mover un objeto dentro de la escena. Dado que este punto ya lo había desarrollado en la practica anterior, y he partido de ella, pues ya se encontraba desarrollado, es por eso que subiré el script que ya había desarrollado junto al resultado obtenido
+
+![Alt text](/img/jugador.png)
+
+![Alt text](/img/jugador.gif)
