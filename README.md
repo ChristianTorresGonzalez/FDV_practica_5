@@ -45,3 +45,5 @@ Para esta tarea, lo que he hecho ha sido colocar un nuevo plano dentro de la esc
 
 Tal y como se aprecia en la imagen, lo que hago es que en el momento en que algo entra en contacto con el teleport, compruebo que ha entrado en contacto, en caso de que sea el jugador, lo que hago es colocar al jugador en el punto de aparición de la zona contraria, punto el cual he definido como zona de aparición de cada escenario. Una vez he situado al jugador en las nuevas coordenadas, además también cambio la cámara a una nueva posición para que quede centrada en la nueva zona de juego. 
 En caso de que vaya de la zona dos a la zona uno, seria exactamente lo mismo lo que cambiando el punto de spawn y la nueva posición de la cámara.
+
+![Alt text](/img/teletransporte.gif)
