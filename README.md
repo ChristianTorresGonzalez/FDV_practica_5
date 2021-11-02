@@ -56,3 +56,10 @@ Para este punto se pide que mediante las teclas "WASD" podamos mover un objeto d
 ![Alt text](/img/jugador.png)
 
 ![Alt text](/img/jugador.gif)
+
+
+## Perseguir objeto y jugador
+En este punto voy a comentar las dos ultimas tareas que se piden para la practica, ya que la lógica de ambos requisitos es la misma, lo único que cambia entre puntos es que en vez de perseguir un objeto estático en la escena, se persigue al jugador.
+Para ello lo que hago es crear un script que colocare a ambos objetos encargados de perseguir a los jugadores, donde lo que hago es ir enfocando el objeto al jugador, y lo voy moviendo una velocidad determinada en cada instante mientras este alejado una distancia por encima de un umbral.
+
+![Alt text](/img/perseguir.png)
