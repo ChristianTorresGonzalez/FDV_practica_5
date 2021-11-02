@@ -36,6 +36,8 @@ Una vez definido el script para recoger la llave, para finalizar con esta tarea,
 ![Alt text](/img/puerta.png)
 
 
+![Alt text](/img/puertas.gif)
+
 
 ## Teletransporte
 El objetivo de esta segunda tarea trata de tener en la escena, algún objeto que te permita teletransportarte de un lado a otro.
