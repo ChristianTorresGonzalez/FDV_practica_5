@@ -26,7 +26,7 @@ Una vez seleccionado el modo de juego, en la esquina superior izquierda, nos apa
 
 Una vez nos hayamos quedado sin vidas, el juego terminará con una pantalla de Game Over, la cual dara por finalizado el juego.
 
-  ![Alt text](/img/vida.gif)
+  ![Alt text](/img/final.gif)
 
 ## Coleccionables por la escena
 Para esta segunda tarea lo que he hecho ha sido situar en la escena una serie de capsulas que cumplirán la tarea de ser unas llaves que al recolectarlas estas nos van desbloqueando ciertas partes del mapa. Además, he implementado dos tipos de llaves:
