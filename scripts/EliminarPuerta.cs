@@ -20,15 +20,17 @@ public class EliminarPuerta : MonoBehaviour
 
     private void eliminarPuerta(string llave, bool opcion)
     {
+        Debug.Log(opcion);
         if (opcion)
         {
             GameObject[] puertas = GameObject.FindGameObjectsWithTag("Puerta");
-            GameObject[] llaves = GameObject.FindGameObjectsWithTag("llave");
             
             foreach (GameObject puerta in puertas)
             {
                 GameObject.Destroy(puerta);
             }
+
+            GameObject[] llaves = GameObject.FindGameObjectsWithTag("llave");
             
             foreach (GameObject key in llaves)
             {
@@ -37,7 +39,7 @@ public class EliminarPuerta : MonoBehaviour
         } else
         {
             string puerta = filtrarPuerta(llave);
-
+            Debug.Log(puerta);
             GameObject puertaEliminada = GameObject.Find(puerta);
             GameObject.Destroy(puertaEliminada);
         }
