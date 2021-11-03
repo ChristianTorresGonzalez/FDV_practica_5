@@ -14,7 +14,19 @@ Tal y como se aprecia en la imagen, lo primero que hago es definir mi delegado e
  
 
 ## Menu princpipal UI
+La primera tarea que se solicita en la practica es la de añadir una interfaz a la escena, con la que poder seleccionar que modo de juego queremos jugar:
+- Modo turbo: donde jugaremos con  una vida menos
+- Modo normal: jugaremos con las vidas iniciales establecidas para el juego, en este caso, he puesto 5 vidas para el modo normal.
 
+  ![Alt text](/img/menu.gif)
+
+Una vez seleccionado el modo de juego, en la esquina superior izquierda, nos aparecerá una barra donde nos ira indicando la cantidad de vidas que nos van quedando. Perderemos vida cada vez que entramos en contacto con un cubo negro, simulando que son enemigos.
+
+  ![Alt text](/img/vida.gif)
+
+Una vez nos hayamos quedado sin vidas, el juego terminará con una pantalla de Game Over, la cual dara por finalizado el juego.
+
+  ![Alt text](/img/vida.gif)
 
 ## Coleccionables por la escena
 Para esta segunda tarea lo que he hecho ha sido situar en la escena una serie de capsulas que cumplirán la tarea de ser unas llaves que al recolectarlas estas nos van desbloqueando ciertas partes del mapa. Además, he implementado dos tipos de llaves:
